@@ -4,7 +4,7 @@ import jsonschema
 
 # Abrir el archivo JSON y cargar el contenido
 # with open('tweets_extraction.json', 'r') as archivo:
-with open('reducido.json', 'r') as archivo:
+with open('tweets_extraction.json', 'r') as archivo:
     datos = json.load(archivo)
 
 # Definir el esquema esperado
